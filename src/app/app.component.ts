@@ -14,7 +14,9 @@ import { RouterModule } from '@angular/router';
     </nav>
 
     <section class="content">
+      <!-- Routing from here -->
       <router-outlet></router-outlet>
+      <!-- Routing from here -->
     </section>
   </main>`,
   styleUrls: ['./app.component.css'],
